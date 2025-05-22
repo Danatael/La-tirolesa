@@ -25,7 +25,7 @@ const menuCategories = [
   {
     id: "principales",
     title: "Platos Principales",
-    image: "/menu-principales.jpg",
+    image: "/3.jpg",
     description: "Nuestras especialidades de la casa",
     items: [
       { name: "Tlayudas tradicionales", price: 180, popular: true, time: "20 min" },
@@ -38,7 +38,7 @@ const menuCategories = [
   {
     id: "postres",
     title: "Postres",
-    image: "/menu-postres.jpg",
+    image: "/5.jpg",
     description: "El dulce final para tu experiencia",
     items: [
       { name: "Flan de cajeta", price: 90, popular: true, time: "5 min" },
@@ -72,7 +72,7 @@ const menuCategories = [
   {
     id: "especiales",
     title: "Especiales",
-    image: "/menu-especiales.jpg",
+    image: "/4.jpg",
     description: "Platillos de temporada y del chef",
     items: [
       { name: "Pescado a la talla", price: 280, popular: true, time: "30 min" },
