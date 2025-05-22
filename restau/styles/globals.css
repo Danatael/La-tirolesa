@@ -92,3 +92,8 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* Oculta el indicador flotante de Next.js DevTools */
+[data-nextjs-devtools] {
+  display: none !important;
+}

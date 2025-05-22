@@ -17,7 +17,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <Link
-                href="https://facebook.com"
+                href="https://www.facebook.com/Campestrelike/about"
                 className="hover:text-white/80"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -78,7 +78,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 mt-0.5" />
-                <span>Av. Principal #123, Centro Histórico, Ciudad de México, CDMX</span>
+                <span>Las presas el estudiante tlalixtac de cabrera San Andrés Huayapam, 68270 Oaxaca de Juárez, Oax.</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2" />

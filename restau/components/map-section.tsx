@@ -22,8 +22,7 @@ export default function MapSection() {
 
         <div className="mt-8">
           <p className="font-medium">Restaurant campestre La Tirolesa</p>
-          <p className="text-muted-foreground">Av. Principal #123, Centro Histórico</p>
-          <p className="text-muted-foreground">Ciudad de México, CDMX</p>
+          <p className="text-muted-foreground">Las presas el estudiante tlalixtac de cabrera San Andrés Huayapam, 68270 Oaxaca de Juárez, Oax.</p>
         </div>
       </div>
     </section>

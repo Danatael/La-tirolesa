@@ -12,7 +12,7 @@ const menuCategories = [
   {
     id: "entradas",
     title: "Entradas",
-    image: "/menu-entradas.jpg",
+    image: "/1.jpg",
     description: "Para compartir y abrir el apetito",
     items: [
       { name: "Guacamole tradicional", price: 120, popular: true, time: "10 min" },
@@ -51,14 +51,22 @@ const menuCategories = [
   {
     id: "bebidas",
     title: "Bebidas",
-    image: "/menu-bebidas.jpg",
+    image: "/2.jpg",
     description: "Refrescantes y tradicionales",
     items: [
       { name: "Agua de horchata", price: 60, popular: true, time: "3 min" },
-      { name: "Margarita tradicional", price: 130, popular: true, time: "5 min" },
       { name: "Mezcal artesanal", price: 150, popular: false, time: "3 min" },
-      { name: "Cerveza artesanal", price: 90, popular: false, time: "3 min" },
+      { name: "Cerveza artesanal", price: 80, popular: false, time: "3 min" },
+      { name: "Refresco de cola", price: 50, popular: false, time: "2 min" },
+      { name: "Agua mineral", price: 40, popular: false, time: "2 min" },
+      { name: "Tequila reposado", price: 200, popular: true, time: "5 min" },
+      { name: "Cerveza clara", price: 70, popular: false, time: "3 min" },
+      { name: "Cerveza oscura", price: 90, popular: false, time: "3 min" },
       { name: "Café de olla", price: 50, popular: true, time: "5 min" },
+      { name: "Chocolate caliente", price: 60, popular: false, time: "5 min" },
+      { name: "Limonada fresca", price: 70, popular: true, time: "3 min" },
+      { name: "Jugo de naranja", price: 80, popular: false, time: "3 min" },
+      { name: "Micheleda", price: 120, popular: true, time: "5 min" },
     ],
   },
   {
@@ -74,7 +82,7 @@ const menuCategories = [
       { name: "Barbacoa de res", price: 230, popular: true, time: "30 min" },
     ],
   },
-  {
+  /* {
     id: "para-ninos",
     title: "Menú Infantil",
     image: "/menu-ninos.jpg",
@@ -86,7 +94,7 @@ const menuCategories = [
       { name: "Espagueti con albóndigas", price: 115, popular: false, time: "20 min" },
       { name: "Helado surtido", price: 70, popular: true, time: "5 min" },
     ],
-  },
+  }, */
 ]
 
 export default function MenuViewer() {
